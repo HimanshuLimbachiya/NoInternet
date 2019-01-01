@@ -27,9 +27,6 @@ public class MainActivity extends AppCompatActivity implements ConnectivityRecei
         compat = findViewById(R.id.llMain);
         textView = findViewById(R.id.textView);
         type = findViewById(R.id.tv_Net_Type);
-
-
-
         checkConnection();
 
         ConnectivityReceiver connectivityReceiver = new ConnectivityReceiver();
