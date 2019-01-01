@@ -14,6 +14,8 @@ public class MyApplication extends Application {
         super.onCreate();
 
         mInstance = this;
+
+
     }
 
     public static synchronized MyApplication getInstance() {
